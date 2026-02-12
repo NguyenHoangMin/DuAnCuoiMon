@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 850px;
+  background: white;
+  display: flex;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Left (image) */
+/* .left img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+} */
+
+/* Right (form) */
+.right {
+  width: 400px;
+  padding: 50px 60px;
+  position: relative;
+}
+
+/* .right h2 {
+  margin-bottom: 20px;
+  color: rgb(253, 37, 37);
+}
+
+.right button {
+  background-color: rgb(245, 185, 125);
+}
+.right button:hover {
+  color: #b72449 !important ;
+} */
+
+/* Social icons */
+/* .social {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  background: white;
+} */
+
+/* label {
+  font-size: 12px;
+  color: #777;
+  font-weight: bold;
+} */
+
+/* input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+} */
+
+/* .btn {
+  width: 100%;
+  padding: 13px;
+  background: #d7a64a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+} */
+
+/* .btn:hover {
+  opacity: 0.9;
+} */
+
+/* Options row */
+/* .options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.options .rm {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.options a {
+  color: #555;
+  text-decoration: none;
+}
+
+.chiu {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.chiu p {
+  padding-bottom: 15px;
+}
+
+.options a:hover {
+  text-decoration: underline;
+} */
+
+/* Signup */
+.signup {
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup a {
+  color: #d7a64a;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}

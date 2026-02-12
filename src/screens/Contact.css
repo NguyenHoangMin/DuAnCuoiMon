@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.7;
+}
+
+.contact {
+  padding: 90px 20px;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+/* Intro */
+.contact-intro {
+  font-size: 18px;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+/* Blocks */
+.contact-block {
+  margin-bottom: 50px;
+}
+
+.contact-block h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Hotline highlight */
+.highlight {
+  color: #ff5a5a;
+}
+
+/* Text */
+.contact-block p {
+  font-size: 18px;
+}
+
+/* Links */
+a {
+  color: #262626;
+  text-decoration: underline;
+}
+
+.link-contact {
+  font-style: italic;
+}
+
+/* Notes */
+.contact-note {
+  font-size: 17px;
+  margin-bottom: 20px;
+  max-width: 750px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 36px;
+  }
+
+  .contact-block h2 {
+    font-size: 22px;
+  }
+
+  .contact-intro,
+  .contact-block p,
+  .contact-note {
+    font-size: 16px;
+  }
+}

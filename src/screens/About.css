@@ -1,0 +1,70 @@
+.about-container {
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("https://img.lovepik.com/bg/20231215/The-Nostalgic-Appeal-of-Vintage-Records-and-Paper-Backgrounds_2468695_wh1200.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.about-layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 28px;
+  text-align: center;
+}
+
+.about-layer h2 {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #fff;
+}
+
+.about-layer p {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #fff;
+}
+
+.story {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+/* Container */
+.story-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Title */
+.story-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+/* Text */
+.story p {
+  font-size: 17px;
+  margin-bottom: 22px;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .story-title {
+    font-size: 26px;
+  }
+
+  .story p {
+    font-size: 16px;
+  }
+}

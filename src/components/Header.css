@@ -1,0 +1,100 @@
+/* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.div-tong {
+  display: flex;
+}
+
+.hi {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btnLogout {
+  margin-top: 5px;
+  color: #76011e;
+  border: 1px solid #76011e;
+}
+
+.btnLogout:hover {
+  background-color: #76011e !important;
+  color: rgb(245, 185, 125) !important;
+  border: 1px solid #76011e !important;
+}
+
+.header-container {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* LOGO */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #b72449;
+}
+.logo span {
+  color: rgb(245, 185, 125);
+}
+
+/* NAVIGATION */
+.navbar a {
+  margin-left: 30px;
+  color: rgb(65, 23, 23);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+.navbar {
+  margin-left: 30px;
+  color: rgb(65, 23, 23);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  display: flex;
+  /* margin-top: 15px; */
+}
+
+.navbar a:hover {
+  color: rgb(245, 185, 125);
+}
+
+/* Help separator */
+.navbar .help {
+  padding-right: 15px;
+  border-right: 1px solid #000000;
+}
+
+/* Login */
+.navbar .login {
+  font-weight: 600;
+  color: rgb(245, 185, 125);
+}
+
+.navbar .login:hover {
+  color: rgb(193, 129, 65);
+}
+
+.navbar .create:hover {
+  color: #76011e;
+}
+
+/* Create account */
+.navbar .create {
+  color: #b72449;
+  font-weight: 600;
+}
